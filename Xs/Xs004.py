@@ -1,6 +1,0 @@
-n = input('Digite algo: ')
-print('O que você digitou é ', type(n))
-print('Somente espaço. ', n.isspace())
-print('É um número. ', n.isnumeric())
-print('É alfabético. ', n.isalpha())
-print('É alfanumérico. ', n.isalnum())
