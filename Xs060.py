@@ -1,7 +1,7 @@
 n = f = int(input('Qual Número Fatorial deseja descobrir: '))
 for c in range(f, 1, -1):
     f *= (c - 1)
-print('{}! = {}'.format(n, f))
+print(f'{n}! = {f}')
 
 '''n = int(input('Qual Número Fatorial deseja descobrir: '))
 c = n
